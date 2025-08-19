@@ -1,0 +1,60 @@
+# Local files & directories
+.local/
+*.local
+
+# MacOS
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# C# / .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+*.pdb
+*.exe
+*.dll
+*.dbmdl
+*.bak
+*.nupkg
+*.snupkg
+*.vs/
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+vendor/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+.venv/
+venv/
+ENV/
+.env
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.log
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
