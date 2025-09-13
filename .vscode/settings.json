@@ -1,0 +1,9 @@
+{
+    "editor.formatOnSave": true,
+    // C# formatter
+    "[csharp]": {
+        "editor.defaultFormatter": "anysphere.csharp"
+    },
+    // Ensure EditorConfig is used
+    "omnisharp.enableEditorConfigSupport": true
+}

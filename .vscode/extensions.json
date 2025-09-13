@@ -1,0 +1,9 @@
+{
+    "recommendations": [
+        "SonarSource.sonarlint-vscode",
+        "anysphere.csharp",
+        "ms-python.python",
+        "golang.go",
+        "EditorConfig.EditorConfig"
+    ]
+}
