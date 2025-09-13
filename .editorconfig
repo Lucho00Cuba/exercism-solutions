@@ -1,0 +1,63 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# JSON
+[*.json]
+indent_size = 2
+
+# .NET Solution Files
+[*.sln]
+indent_style = tab
+
+# C#
+[*.cs]
+indent_size = 4
+
+## .NET Coding Conventions
+
+### "this." and "Me." qualifiers
+dotnet_style_qualification_for_field = true:warning
+dotnet_style_qualification_for_property = true:warning
+dotnet_style_qualification_for_method = true:warning
+dotnet_style_qualification_for_event = true:warning
+
+### Organize usings
+dotnet_separate_import_directive_groups = false
+dotnet_sort_system_directives_first = false
+file_header_template = unset
+
+## C# Formatting Rules
+csharp_preserve_single_line_statements = true
+csharp_preserve_single_line_blocks = true
+csharp_prefer_braces = when_multiline:suggestion
+
+### New line preferences (compact style)
+csharp_new_line_before_open_brace = none
+csharp_new_line_before_catch = false
+csharp_new_line_before_else = false
+csharp_new_line_before_finally = false
+csharp_new_line_before_members_in_object_initializers = false
+csharp_new_line_before_members_in_anonymous_types = true
+csharp_new_line_between_query_expression_clauses = false
+
+### Using directives & namespaces
+csharp_using_directive_placement = inside_namespace
+csharp_style_namespace_declarations = file_scoped:suggestion
+
+### Indentation preferences
+csharp_indent_block_contents = true
+csharp_indent_case_contents = true
+csharp_indent_case_contents_when_block = true
+csharp_indent_labels = one_less_than_current
+csharp_indent_switch_labels = true
+

@@ -1,6 +1,12 @@
 # Exercism Solutions
 
+[![Exercism Profile](https://img.shields.io/badge/Exercism-Lucho00Cuba-blue?logo=exercism&logoColor=white)](https://exercism.org/profiles/Lucho00Cuba)
+
 This repository contains my solutions to various programming exercises from [Exercism](https://exercism.org/). Each folder is organized by language and exercise name.
+
+## Requeriments
+
+- [CLI Exercism](https://exercism.org/docs/using/solving-exercises/working-locally)
 
 ## How to Use
 
